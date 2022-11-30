@@ -43,7 +43,6 @@ while(True):
             root.destroy()
             break
         if 0 <= int(delete_number) <= 99:
-            print("a")
             canvas.delete("tag{}".format(delete_number))
             root.update()
         elif int(delete_number) < 0 or 99 < int(delete_number):
